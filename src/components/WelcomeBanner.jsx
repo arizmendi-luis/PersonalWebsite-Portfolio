@@ -11,14 +11,14 @@ import{
 } from '@fortawesome/free-solid-svg-icons'
 import * as HiIcons from "react-icons/hi"; 
 import * as SiIcons from "react-icons/si"; 
-import Typical from "react-typical";
+//import Typical from "react-typical";
 
 function WelcomeBanner() {
   return ( 
       <div className='banner'> 
         <p className='bannerWords'>Luis Arizmendi</p>  
-        <p className='bannerSub'>I'm an Aspiring  
-          <Typical className='bannerSub'
+        <p className='bannerSub'>I'm an Aspiring Software & Aerospace Engineer </p>  
+          {/* <Typical className='bannerSub'
           loop={Infinity} 
           wrapper="c" 
           steps={[
@@ -28,7 +28,7 @@ function WelcomeBanner() {
               5000, 
               ' Aerospace Enginner', 
               5000,
-          ]}/></p>  
+          ]}/></p>   */}
         <a 
           href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' 
           className='youtube social'  
